@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{476A0BF3-34AB-4F9C-A34E-C5ECC7A4F90C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1753E9E7-9ED3-4FC7-A670-6C08CA5D6A02}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "OctoberWebApp", "src\OctoberWebApp\OctoberWebApp.xproj", "{EF324D72-AF91-44DD-8572-0E05B0241070}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF324D72-AF91-44DD-8572-0E05B0241070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF324D72-AF91-44DD-8572-0E05B0241070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF324D72-AF91-44DD-8572-0E05B0241070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF324D72-AF91-44DD-8572-0E05B0241070}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF324D72-AF91-44DD-8572-0E05B0241070} = {476A0BF3-34AB-4F9C-A34E-C5ECC7A4F90C}
+	EndGlobalSection
+EndGlobal
